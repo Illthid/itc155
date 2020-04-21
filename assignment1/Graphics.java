@@ -1,5 +1,5 @@
 //*******************************************************************
-// MickeyBox.java
+// Graphics.java
 //
 // A program that uses the DrawingPanel to make the MickeyBox image,
 // using separate methods for each shape and a loop for recurring 
