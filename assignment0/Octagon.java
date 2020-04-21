@@ -1,3 +1,12 @@
+//*******************************************************************
+// Octagon.java
+//
+// A template class for constructing Octagon objects that implements
+// the Shape interface.
+// 
+// By: David Barnette
+// Date: 4/20/2020
+//*******************************************************************
 public class Octagon implements Shape{
     private double a;   //1
 
