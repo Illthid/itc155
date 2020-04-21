@@ -1,3 +1,13 @@
+//*******************************************************************
+// MickeyBox.java
+//
+// A program that uses the DrawingPanel to make the MickeyBox image,
+// using separate methods for each shape and a loop for recurring 
+// shapes.
+// 
+// By: David Barnette 
+// Date: 4/20/2020
+//*******************************************************************
 import java.awt.*;
 
 
