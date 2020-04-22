@@ -8,10 +8,11 @@ public class Assignment3 {
 		ArrayList<String> list = new ArrayList<>();
 
 		// populate the arraylist
-		list.add("walk");
-		list.add("talk");
+		list.add("sprint");
+		list.add("shout");
 		list.add("speak");
 		list.add("run");
+		list.add("eye");
 		
 		removeEvenLength(list);
 		System.out.println(list);
