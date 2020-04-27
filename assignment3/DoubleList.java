@@ -4,8 +4,8 @@
 // A class that takes an ArrayList<String> and replaces every string
 // (element) with two of that same string. Includes a jUnit test.
 // 
-// By: David Barnette
-// Date: 4/262020
+// David Barnette
+// 4/262020
 //*******************************************************************
 
 import java.util.ArrayList;
