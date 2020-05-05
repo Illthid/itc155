@@ -3,6 +3,8 @@
 * the first n integers starting with 1 in sequential order, separated by
 * commas. Your method should throw an IllegalArgumentException if passed 
 * a value less than 1. 
+* David Barnette
+* 05/05/2020
 */
 public static void main(String[] args) {
 		writeNums(1);
