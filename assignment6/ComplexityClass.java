@@ -4,15 +4,13 @@
 //David Barnette
 //05/19/2020
 
-
-
-
 //*******************************************************************************************************************
 //ex4. To which complexity class does the following algorithm belong? Consider N to be the length or size of the array or collection passed to 
 //the method. explain your reasoning     
 
 //Answer : O(N)
-//Explain: This code is used O(N) because the time and size based on the result is affected by the input.
+// The code contains a single for loop (N) with no constants, two
+// O(1) statements, and outside of it are two O(1) statements (2N+2)
 	public static int[] mystery1(int[] list) {
 		int[] result = new int[2 * list.length];
 		for (int i=0; i <list.length; i++) {
@@ -25,8 +23,9 @@
 //*******************************************************************************************************************	
 //ex5. To which complexity class does the following algorithm belong?
 	
-//Answer : O(N) (or probably O(log N)
-//Explain: This code is used O(N) because the result graph will grow linearly. 
+//Answer : O(N)
+// The code contains only a single for loop with no constants and
+// four O(1) statements inside of it (4N)
 	public static void mystery2(int[] list) {  
 		for(int i=0; i<list.length /2; i++) { 
 			int j = list.length - 1 - i;
