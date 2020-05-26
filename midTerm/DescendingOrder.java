@@ -1,10 +1,12 @@
-// Problem 1:
-// Write a program that lists all ways people can line up for a photo (all permutations of a list of Strings).
-//The program will read a list of one word names (until -1), and use a recursive method to create and output 
-//all possible orderings of those names, one ordering per line.
-//5/26/2020
-//David Barnette
+
 import java.util.*;
+//Write a void method selectionSortDescendTrace() that takes an integer array, 
+//and sorts the array into descending order. The method should use nested loops
+//and output the array after each iteration of the outer loop, thus outputting the
+//array N-1 times (where N is the size). Complete main() to read in a list of up
+//to 10 positive integers (ending in -1) and then call the selectionSortDescendTrace() method.
+//05/26/2020
+//David Barnette
 
 public class DescendingOrder {
 
