@@ -1,5 +1,6 @@
 
 import java.util.*;
+//Problem 3
 //Write a void method selectionSortDescendTrace() that takes an integer array, 
 //and sorts the array into descending order. The method should use nested loops
 //and output the array after each iteration of the outer loop, thus outputting the
