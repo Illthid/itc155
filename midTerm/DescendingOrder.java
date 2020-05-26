@@ -1,7 +1,7 @@
 
 import java.util.*;
 //Problem 3
-//Write a void method selectionSortDescendTrace() that takes an integer array, 
+//Write a void method selectionSortDescendTrace() that takes an integer array,
 //and sorts the array into descending order. The method should use nested loops
 //and output the array after each iteration of the outer loop, thus outputting the
 //array N-1 times (where N is the size). Complete main() to read in a list of up
@@ -32,15 +32,15 @@ public class DescendingOrder {
 
     public static void selectionSortDescendTrace(int[] numbers, int numElements) {
         for (int i = 0; i < numElements - 1; i++) {
-            int biggestIndex = i;
+            int largeScale = i;
             for (int j = i + 1; j < numElements; j++) {
-                if (numbers[j] > numbers[biggestIndex]) {
-                    biggestIndex = j;
+                if (numbers[j] > numbers[largeScale]) {
+                    largeScale = j;
                 }
             }
             int temporary = numbers[i];
-            numbers[i] = numbers[biggestIndex];
-            numbers[biggestIndex] = temporary;
+            numbers[i] = numbers[largeScale];
+            numbers[largeScale] = temporary;
 
             for (int k = 0; k < numElements; k++) {
                 System.out.print(numbers[k] + " ");
