@@ -8,16 +8,16 @@ class Final1Test {
 	@Test
 	public void equalTest() {
 		Stack<Integer> num1 = new Stack<Integer>();
-		num1.add(24);
-		num1.add(46);
-		num1.add(89);
-		num1.add(4);
+		num1.add(21);
+		num1.add(34);
+		num1.add(99);
+		num1.add(2);
 		 
 		Stack<Integer> num2 = new Stack<Integer>();
-		num2.add(24);
-		num2.add(46);
-		num2.add(89);
-		num2.add(4);
+		num2.add(21);
+		num2.add(34);
+		num2.add(99);
+		num2.add(2);
 		 
 		Assertions.assertEquals(true, Final1.equals(num1,num2));
 	}
