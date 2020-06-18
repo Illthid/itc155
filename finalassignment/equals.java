@@ -3,7 +3,7 @@
 //of integer value in the same order. Your method must restore the two stacks to their original state before returning. 
 //Use one stack as auxiliary storage.
 //
-//David Barnette 06/15/2020
+//David Barnette 06/19/2020
 
 import java.util.Stack;
 
