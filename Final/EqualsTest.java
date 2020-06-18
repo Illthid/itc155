@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 
-public class finalQuestion1Test {
+public class equalsTest {
 
 	@Test
 	public void test() {
