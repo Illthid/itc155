@@ -1,21 +1,41 @@
-/*
-* Write a method isFull that returns whether or not a binary tree is full (true,
-* if it is, false if otherwise). A full binary tree is one in which every node 
-* has 0 or 2 children. 
-*/
+import static org.junit.jupiter.api.Assertions.*;
 
-public boolean isFull() {
-    return isFull(overallRoot);
-}
+import org.junit.jupiter.api.Test;
 
-public boolean isFull(IntTreeNode root) {
-    if (root == null) {
-        return true;
-    } else if (root.left == null && root.right != null) {
-        return false;
-    } else if (root.right == null && root.left != null) {
-        return false;
-    } else {
-        return isFull(root.left) && isFull(root.right);
-    }
+/*****************************************************************
+// ITC155 - Final - Problem 3 - JUnit Tests
+// IntTree: isFull method
+******************************************************************/
+
+class JTestIntTree {
+
+
+	@Test
+	void testEmptyTree() {
+		IntTree empty = new IntTree(); // empty IntTree (1 empty branch e.g. overallRoot)
+		assertTrue(empty.isFull());
+	}
+	
+	@Test 
+	void testSingleNodeTree() {
+		IntTree root = new IntTree(1);
+		assertTrue(root.isFull()); // True since there are no branches off of root
+	}
+	
+
+	@Test
+	
+	void testSequencialTree() {
+		IntTree sequence = new IntTree(12);
+		assertFalse(sequence.isFull());
+	}
+	
+	@Test 
+
+	void testSmallTree() {
+		IntTree full = new IntTree(3);
+		assertTrue(full.isFull());
+	}
+	
+	
 }
