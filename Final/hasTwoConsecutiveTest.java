@@ -1,31 +1,21 @@
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-class LinkedIntListJunitTest {
+class hasTwoConsecutiveTest {
 
 	@Test
-	void testFullTrue() {
-
-		LinkedIntList list = new LinkedIntList();
-		list.add(2);
-		list.add(4);
-		list.add(6);
-		list.add(8);
-		list.add(10);
-
-		assertTrue(list.hasTwoConsecutive());
+	void test() {
+		hasTwoConsecutive list1=new hasTwoConsecutive();
+		list1.insertInt(18);
+		list1.insertStart(1);
+		list1.insertSpecific(3, 2);	
+		list1.insertInt(7);
+		list1.insertInt(39);
+		
+		
+		Assertions.assertEquals(true, list1.hasTwoConsecutive());
+		
+	
 	}
 
-	@Test
-	void testFalse() {
-
-		LinkedIntList list = new LinkedIntList();
-		list.add(1);
-		list.add(3);
-		list.add(5);
-		list.add(7);
-		list.add(9);
-
-		assertFalse(list.hasTwoConsecutive());
-	}
 }
