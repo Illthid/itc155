@@ -25,5 +25,5 @@ public class Consecutive_Client {
 		System.out.println("The List has been modified >>> " + list1);
 		System.out.println("Method hasTwoConsecutive Test: >>> " + list1.hasTwoConsecutive());
 	}
-
+	
 }
