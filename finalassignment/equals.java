@@ -2,7 +2,6 @@
 //Write a method called equals that accepts two stacks of integer as parameter and returns true if the two stacks store exactly the same sequence 
 //of integer value in the same order. Your method must restore the two stacks to their original state before returning. 
 //Use one stack as auxiliary storage.
-//
 //David Barnette 06/19/2020
 
 import java.util.Stack;
