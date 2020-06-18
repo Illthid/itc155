@@ -36,6 +36,5 @@ class JTestIntTree {
 		IntTree full = new IntTree(3);
 		assertTrue(full.isFull());
 	}
-	
-	
+		
 }
